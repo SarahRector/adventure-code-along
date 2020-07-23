@@ -5,7 +5,7 @@ const monsters = {
         top: '89%',
         left: '44%'
     },
-    image: 'monsters.jpg',
+    image: 'https://placekitten.com/200/300',
     description: `
         You enter the quest chamber only to be confronted by a hoard of
         monsters. And they look hungry. What do you do?
@@ -50,7 +50,7 @@ const dragon = {
         top: '57%',
         left: '67%'
     },
-    image: 'dragon.jpg',
+    image: 'https://fillmurray.com/300/300',
     audio: 'dragon.wav',
     action: 'dragon-growl.aiff',
     description: `
@@ -100,7 +100,7 @@ const dragon = {
 
 const treasure = {
     id: 'treasure',
-    title: 'The Golden Treasure',
+    title: 'https://placecage.com/300/200',
     map: {
         top: '31%',
         left: '5%'
