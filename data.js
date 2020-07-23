@@ -50,7 +50,7 @@ const dragon = {
         top: '57%',
         left: '67%'
     },
-    image: 'https://fillmurray.com/300/300',
+    image: 'https://placekitten.com/300/300',
     audio: 'dragon.wav',
     action: 'dragon-growl.aiff',
     description: `
@@ -100,12 +100,12 @@ const dragon = {
 
 const treasure = {
     id: 'treasure',
-    title: 'https://placecage.com/300/200',
+    title: 'A Golden Treasure',
     map: {
         top: '31%',
         left: '5%'
     },
-    image: 'treasure-chests.png',
+    image: 'https://placekitten.com/300/200',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `
