@@ -47,10 +47,21 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+form {
+    display: block;
+    border: solid 3px black;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 footer {

@@ -74,47 +74,41 @@ const space = {
     }]
 };
 
-const treasure = {
-    id: 'treasure',
-    title: 'A Golden Treasure',
+const drama = {
+    id: 'drama',
+    title: 'A Very Brittish Drama',
     map: {
         top: '31%',
         left: '5%'
     },
-    image: 'https://placekitten.com/300/200',
-    audio: 'treasure-chests.wav',
-    action: 'chest-opening.wav',
+    image: '../assets/drama.jpg',
     description: `
-        As you enter the quest chamber you notice three chests before you.
-        Just as you start to imagine the wealth, you see a giant serpent
-        emerge from the back of the chamber. You'll need to make a run for it,
-        but you have time to open one chest before you take off. Which one 
-        do you choose?
+        It is once again the summer season and Lady Marburry is coming to call this afternoon. Cook and Henniston, your valet have been preparing the south wing for her arrival but you know that Lady Marburry is never satisfied. She arrives and you sit down to tea. You begin with some banal plesantries but then Lady Marburry abruptly clears her throat and gazes out the window. Surely she must mean something by this? You decide to....
     `,
     choices: [{
-        id: 'wooden',
-        description: 'A Wooden Chest',
-        result: 'You grab 40 gold pieces!',
-        hp: 0,
-        gold: 40
-    }, {
-        id: 'golden',
-        description: 'A Golden Chest',
-        result: 'Oh no! The chest is booby trapped with poison and you take 50 hp damage',
-        hp: -50,
+        id: 'offer',
+        description: 'Offer her a crumpet',
+        result: 'You hope to make the moment less akward and so you offer the Lady a crumpet to assure her you did not take note of her noises. She politely declines until you offer twice, as custom dictates. You have successfully ignored whatever emotional distress she was in and maintained decorum. This does not gain you material wealth but rather social status in the form of 45 hp.',
+        hp: 45,
         gold: 0
     }, {
-        id: 'jeweled',
-        description: 'A Jeweled Chest',
-        result: 'A warm light engulfs you and you gain 35 hp',
-        hp: 35,
+        id: 'inquire',
+        description: 'Inquire as to her wellbeing',
+        result: 'You inquire to see if everything is quite alright with the Lady. She admits that no, it is not. Her youngest son and heir has not yet married and rather than send him once again to France to tour society with his great-aunt, she has reached an arrangement with your father to wed him to you. This comes as quite a shock to you as you had heard nothing of this plan. You shove your feelings down deep inside and resign yourself to marriage as this union will help save your families estate. You gain 3000 pieces of gold, but your pride suffers greatly.',
+        hp: 0,
+        gold: 3000
+    }, {
+        id: 'tissue',
+        description: 'Offer a tissue',
+        result: 'You offer Lady Marrbury and tissue, which she accepts and continue with your social visit. A week later Lady Marburry is dead. Consumption was the cause. You think to yourself, "Surely our home was not affected by her vile aires", just as a tickle touches your throat and you begin to cough, losing 40 hp to shame and worry....',
+        hp: -50,
         gold: 0
     }]
 };
 
 const quests = [
     creature, 
-    treasure,
+    drama,
     space
 ];
 
